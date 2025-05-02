@@ -23,9 +23,6 @@
 
 task5_api_integration/ ├── views/ │ └── index.ejs ├── public/ │ └── script.js ├── server.js ├── package.json
 
-yaml
-Copy code
-
 ---
 
 ## 🎯 Features
@@ -45,26 +42,18 @@ Copy code
 1. Open terminal and go to this folder:
    ```bash
    cd task5_api_integration
-Install dependencies:
-
-bash
-Copy code
-npm install
-Start server:
-
-bash
-Copy code
-node server.js
-Visit in browser:
-
-arduino
-Copy code
-http://localhost:3000
+2. Install dependencies:
+   ```bash
+   npm install
+3. Start server:
+   ```bash
+   node server.js
+4. Visit in browser:
+   ```arduino
+   http://localhost:3000
 💡 Example Usage
 Fill:
 
-makefile
-Copy code
 Name: Royal
 Email: royal@example.com
 Click Add User.
